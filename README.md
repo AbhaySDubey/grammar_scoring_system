@@ -18,11 +18,12 @@
         - MFCC
         - CTFT
         - ZCR
-        - more (if I can find any others)
+        - Spectral Centroid
+
     - linguistic features like:
         - transcription length
         - Grammatical Errors (such as noun v/s verb counts, use of verb tenses, articles(a/an/the) used, prepositions used, etc.)
-        - more (if I can find any others)
+        - Prosodic Features
 
     **I'll be forming a relationship map of what features have the strongest relationship with the grammar score, based on which the features with the strongest correlation will be selected for training.**
     
@@ -30,4 +31,3 @@
     Finally, we use the extracted features for training, selected based on how strong they are correlated to the final grammar score (as provided in the training dataset).
     - I'd use a Random Forest Regressor for training. - *TBD, can use some other algorithm, too. First, I'll need to test different algorithms and their corresponding performance.*
     - Plot out the Pearson correlation between the grammar scores and the predicted grammar scores.
-
