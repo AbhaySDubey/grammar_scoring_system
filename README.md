@@ -39,3 +39,6 @@
          3. Pearson Correlation: 0.748
          ```
     - Plot out the Pearson correlation between the grammar scores and the predicted grammar scores.
+
+ - #### Note:
+    The files namely, ***submission1.csv*** and ***submission2.csv*** represent the submission file containing predictions from the Random Forest Regressor and Gradient Boosting Regressor algorithms, respectively.
