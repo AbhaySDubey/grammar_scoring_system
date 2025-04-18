@@ -13,7 +13,7 @@
       - ZCR
       - Spectral Centroid
 
-    - Prosodic Features:
+    - prosodic features like:
       - pitch
       - f0
       - hnr
