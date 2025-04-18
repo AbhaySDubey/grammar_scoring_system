@@ -35,8 +35,8 @@
       - Gradient Boosting Regressor :- 
          (*As computed for the validation set (not the same as test.csv)*)
          ```
-         MAE: 0.632
-         MSE: 0.659
-         Pearson Correlation: 0.748
-         '''
+         1. MAE: 0.632
+         2. MSE: 0.659
+         3. Pearson Correlation: 0.748
+         ```
     - Plot out the Pearson correlation between the grammar scores and the predicted grammar scores.
