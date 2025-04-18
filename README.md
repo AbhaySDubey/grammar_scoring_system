@@ -8,18 +8,17 @@
  - ### Pre-processing and Feature Extraction:
     This step involves extracting:
     - acoustic features like:
-        - MFCC
-        - CTFT
-        - ZCR
-        - Spectral Centroid
+      - MFCC
+      - CTFT
+      - ZCR
+      - Spectral Centroid
 
-    - linguistic features like:
-        - Prosodic Features
-         - pitch
-         - f0
-         - hnr
-         - jitter
-         - shimmer
+    - Prosodic Features:
+      - pitch
+      - f0
+      - hnr
+      - jitter
+      - shimmer
 
     
  - ### Training:
